@@ -14,12 +14,12 @@ kuetcse
 
 -- Removing pre-existing tables;
 
-drop table roles;
 drop table permission;
 drop table login;
 drop table image;
-drop table userr;
 drop table gallery;
+drop table roles;
+drop table userr;
 
 -- Creating table userr where primary key is user_id
 
